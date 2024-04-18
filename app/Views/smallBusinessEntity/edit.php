@@ -23,13 +23,13 @@
                         <div class="row">
                             <div class="col-md-12">
                                 <div class="form-group">
-                                    <label>Наиминование *</label>
-                                    <input type="input" name="title" class="form-control <?= add_error_class($errors_data, 'title'); ?>" placeholder="Наиминование" value="<?= esc($smallBusinessEntity['title']) ?>" >
+                                    <label>Наименование *</label>
+                                    <input type="input" name="title" class="form-control <?= add_error_class($errors_data, 'title'); ?>" placeholder="Наименование" value="<?= esc($smallBusinessEntity['title']) ?>" >
                                     <?= display_error($errors_data, 'title'); ?>
                                 </div>
                             </div>
                             <div class="col-md-12">
-                                <button type="submit" class="btn btn-primary">Редоктировать</button>
+                                <button type="submit" class="btn btn-primary">Редактировать</button>
                             </div> 
                         </div>
                     <form>

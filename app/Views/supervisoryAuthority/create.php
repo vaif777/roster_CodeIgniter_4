@@ -23,8 +23,8 @@
                         <div class="row">
                             <div class="col-md-12">
                                 <div class="form-group">
-                                    <label>Наиминование *</label>
-                                    <input type="input" name="title" class="form-control <?= add_error_class($errors_data, 'title'); ?>" placeholder="Наиминование" value="<?= old('title'); ?>" >
+                                    <label>Наименование *</label>
+                                    <input type="input" name="title" class="form-control <?= add_error_class($errors_data, 'title'); ?>" placeholder="Наименование" value="<?= old('title'); ?>" >
                                     <?= display_error($errors_data, 'title'); ?>
                                 </div>
                             </div>
